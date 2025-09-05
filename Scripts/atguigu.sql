@@ -177,6 +177,7 @@ insert  into `order`(`order_id`,`order_name`) values (1,'shkstart'),(2,'tomcat')
 
 DROP TABLE IF EXISTS `regions`;
 
+SELECT * FROM regions
 CREATE TABLE `regions` (
   `region_id` int(11) NOT NULL,
   `region_name` varchar(25) DEFAULT NULL,
